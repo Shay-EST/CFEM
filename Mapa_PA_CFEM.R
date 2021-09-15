@@ -6,6 +6,11 @@ library(ggplot2)
 library(dplyr)
 library(maps)
 
+########################################################################
+# Utilizar essa opção caso a notação cientifíca seja um problema
+options(scipen = 999)
+########################################################################
+
 list_geobr() #IPEA
 
 # Carregados os municípios do estado do Pará no ano de 2016.
