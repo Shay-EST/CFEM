@@ -47,11 +47,11 @@ cfem_d <- cfem_d[!is.na(cfem_d$Valor), ]
 # Compatibilização das linhas para unir os data.frames()
 #########################################
 
-# Coloca todos as letras dos nomes dos municipíos em minúscula.
+# Coloca todas as letras dos nomes dos municipíos em minúscula.
 mun_PA$NomeEnte      <- tolower(mun_PA$name_muni)
 head(mun_PA)
 
-# Coloca todos as letras dos nomes dos municipíos em minúscula.
+# Coloca todas as letras dos nomes dos municipíos em minúscula.
 cfem_d$NomeEnte     <- tolower(cfem_d$NomeEnte)
 head(cfem_d)
 
